@@ -1,0 +1,67 @@
+body{
+	background-color: aliceblue;
+}
+
+#news1{
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 1px solid black;
+}
+
+#news2{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+
+#news2 img{
+	width: 75%;
+}
+
+#news3{
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+
+#news4{
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+
+#tab{
+	position: fixed;
+}
+
+#tab a{
+	color: black;
+}
+
+.knoppen{
+	overflow: hidden;
+}
+
+.knoppen li{
+	list-style-type: none;
+	float: left;
+}
+
+.knoppen li.actief{
+	background-color: orange;
+}
+
+.paneel {
+	/* display: none; */
+}
+
+.paneel.actief {
+	display: block !important;
+}
+
+.paneel img {
+	max-width: 100%;
+}
